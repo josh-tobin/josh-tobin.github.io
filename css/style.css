@@ -50,9 +50,13 @@ h1, h2, h3, h4, h5, h6 {
   
 
 .avatar img {
-    width: 169px;
-    height: 169px;
-    border-radius: 85px;
+    width: 89px;
+    height: 89px;
+    border-radius: 45px;
+}
+
+.embed-vid {
+  text-align: center;
 }
 
 ul {
@@ -111,14 +115,7 @@ ul.comma-separated li:after {
 ul.comma-separated li:last-child:after {
     content: "";
 }
-[class*="col-"] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2);
-}
+
 
 @media (max-width: 320px) {
     .header .contact {
