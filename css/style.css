@@ -15,14 +15,25 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+.subheading {
+  font-weight: normal;
+}
+
 .container {
     background-color: #fff;
-    max-width: 700px;
+}
+
+.container-narrow {
+  max-width: 700px;
 }
 
 .row {
     padding: 0 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.row-no-border {
+  border-bottom: 0px;
 }
 
 .row:last-child {
